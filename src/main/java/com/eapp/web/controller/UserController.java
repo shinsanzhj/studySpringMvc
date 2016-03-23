@@ -9,7 +9,6 @@ public class UserController {
 
 	@RequestMapping("/helloWorld")
 	public String helloWorld() {
-		System.out.println("执行到了该Controller");
 		return "user/helloWorld";
 	}
 }
